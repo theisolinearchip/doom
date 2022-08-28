@@ -183,7 +183,7 @@ HSendPacket
 	fprintf (debugfile,"\n");
     }
 
-    I_NetCmd ();
+    // I_NetCmd (); // not used
 }
 
 //
@@ -207,7 +207,7 @@ boolean HGetPacket (void)
 	return false;
 		
     doomcom->command = CMD_GET;
-    I_NetCmd ();
+    // I_NetCmd (); // not used
     
     if (doomcom->remotenode == -1)
 	return false;

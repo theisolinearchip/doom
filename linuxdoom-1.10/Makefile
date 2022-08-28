@@ -6,7 +6,11 @@
 #
 CC=  gcc  # gcc or g++
 
-CFLAGS=-g -Wall -DNORMALUNIX -DLINUX # -DUSEASM 
+# -Wredundant-decls
+# -Wmissing-field-initializers
+# -Wunused-variable
+
+CFLAGS=-g -Wall -Wmissing-field-initializers -DNORMALUNIX -DLINUX # -DUSEASM 
 LDFLAGS=-L/usr/X11R6/lib
 LIBS=-lXext -lX11 -lnsl -lm
 

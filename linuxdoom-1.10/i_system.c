@@ -114,7 +114,6 @@ void I_Init (void)
 //
 void I_Quit (void)
 {
-    printf("quitting\n");
     D_QuitNetGame ();
     I_ShutdownSound();
     I_ShutdownMusic();
