@@ -18,4 +18,4 @@ following ports/versions (I used some of them to check for bugs/issues when adap
 
 ## TODO
 
-([here](https://github.com/theisolinearchip/doom/blob/main/TODO.md))
+[Here](https://github.com/theisolinearchip/doom/blob/main/TODO.txt)
