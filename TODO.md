@@ -1,0 +1,13 @@
+## TODO
+
+- WAD loading and version (hardcoded now with custom param)
+
+- scaling factor currently hardcoded (check params)
+
+- grabMouse param currently hardcoded (check params)
+
+- demo version check stupidly patched: allows VERSION (110 and a harcoded 109 for those WADs
+
+- version detection: some versions are filename-based, maybe I'll add some params requirement?
+
+- cleaning stuff, always :_ D
