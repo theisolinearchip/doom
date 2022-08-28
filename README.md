@@ -12,6 +12,7 @@ following ports/versions (I used some of them to check for bugs/issues when adap
 ## Checklist
 
 - no sound :)
+- network game disabled (I_InitNetwork repurposed for enabling single player mode only)
 - uses X11 libs for image displaying (Pixmap + XDrawPoint + XCopyArea <-- same as __doomgeneric__)
 - lot of "cleaning" pending (unused stuff, version-related content, etc.)
 - several important warnings fixed (mostly pointer-related)

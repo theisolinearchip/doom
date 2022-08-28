@@ -42,7 +42,7 @@ int XShmGetEventBase( Display* dpy ); // problems with g++?
 #include <stdarg.h>
 #include <sys/time.h>
 #include <sys/types.h>
-#include <sys/socket.h>
+// #include <sys/socket.h>
 
 #include <netinet/in.h>
 #include <errno.h>
@@ -82,7 +82,6 @@ int		X_height;
 static Pixmap X_pixmap;
 
 XShmSegmentInfo	X_shminfo;
-int		X_shmeventtype;
 
 // Fake mouse handling.
 // This cannot work properly w/o DGA.
